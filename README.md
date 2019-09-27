@@ -22,7 +22,8 @@ The Front-end team it´s integrated by Diana González Laguna and Tegthyn Coral 
 
 As we have freedom to select the users and the general lines of the cafe, we started proposing a thematic cafe, because having a most defined audience the choices of aesthetic, colors, images are way easier, at the same time the user will have a more satisfactory experience. So by voting the ones that we like most got to a list of 4 themes. To finally decide we make some personal intervews with another people to know the bes theme, and that´s how we get the space theme inspired on Interstellar film.
 
-![picture](https://media1.tenor.com/images/637baa38f97093706d91784b880e3935/tenor.gif?itemid=3581144)
+!(https://media1.tenor.com/images/637baa38f97093706d91784b880e3935/tenor.gif?itemid=3581144)
+
 
 Once the thematic was defined we started to create prototypes, with this low definition prototype we got the concrete ideas of the diferent views of the app.
 ![out](https://i.ibb.co/zSw4DzH/ndice.jpg)
