@@ -7,8 +7,9 @@ class Menu extends Component {
 render() {
     return(
     <div>
-
-    }
+        <p>holicccccccc</p>
+        </div>
+    )}
 }
 
 export default Menu;
