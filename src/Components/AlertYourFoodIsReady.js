@@ -7,8 +7,9 @@ class AlertYourFoodIsReady extends Component {
 render() {
     return(
     <div>
-
-    }
+        <p>Alertttttt</p>
+        </div>
+    )}
 }
 
 export default AlertYourFoodIsReady;
