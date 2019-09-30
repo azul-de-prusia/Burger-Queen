@@ -7,7 +7,8 @@ class WaitForFood extends Component {
 render() {
     return(
     <div>
-
+    </div>
+    )
     }
 }
 
