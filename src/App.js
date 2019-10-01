@@ -1,16 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Routes from './Routes';
+
 
 function App() {
   return (
     <div className="App">
+    
       <header className="App-header">
-        <p>
-        
-        </p>
+      <h1>Interstellar</h1>
       </header>
+     < a href="/Menu">
+     <button>HOLA</button>
+     </a>
+      <Routes />
+      
     </div>
+    
   );
 }
 
