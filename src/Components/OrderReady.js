@@ -7,6 +7,8 @@ class OrderReady extends Component {
 render() {
     return(
     <div>
+        <p>Your order is ready!</p>
+        <p>In a few moments it will arrive at your table</p>
     </div>
     )
     }

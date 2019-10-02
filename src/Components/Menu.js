@@ -21,7 +21,10 @@ render() {
     <button>Malteada</button>
     </div>
 
-
+       <div>
+           <button>Send</button>
+           <input placeholder="Total"></input>
+           </div> 
 <div className="card"></div>
         </div>
     )}
