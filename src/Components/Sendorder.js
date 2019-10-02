@@ -7,6 +7,9 @@ class SendOrder extends Component {
 render() {
     return(
     <div>
+        <p>Please confirm your order</p>
+        <button>Back to menu</button>
+        <button>Submit</button>
         </div>
     )
     }
