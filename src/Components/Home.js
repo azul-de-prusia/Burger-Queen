@@ -9,7 +9,6 @@ class Home extends Component {
 render() {
     return(
     <div className= "home">
-        <p>Alert</p>
         <RedirectMenu />
         </div>
     )}
