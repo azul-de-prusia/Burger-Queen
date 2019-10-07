@@ -1,31 +1,48 @@
 import React, {Component} from 'react';
 
+
 class Menu extends Component {
     constructor() {
         super();
     }
 render() {
     return(
-    <div className="Container2">
+        <div>
+ <div><h1>MENU</h1>
+ </div>
+ <div className="Container2">
 
     <div className="Food">
-        <h1>MENU</h1>
+        
         <h2>Food</h2>
-        <button>Pollo</button>
-        <button>Pescado</button>
+        {<img className="cocaAzul" src="https://pbs.twimg.com/media/BVjTuebCMAA01nY.jpg:large"></img>}
+        <p>Blue Burger</p>
+        {<img className="cocaAzul" src="https://s3-media2.fl.yelpcdn.com/bphoto/_0Tr1X0pN0GWnrPkQij3IA/o.jpg"></img>}
+        <p>Galaxy Taquitos</p>
+        {<img className="cocaAzul" src="https://www.cocinayvino.com/wp-content/uploads/2017/02/ramenazul2.jpg"></img>}
+        <p>Blue mermaid (Ramen)</p>
         </div>
 
     <div className="Drinks">
+
     <h2>Drinks</h2>
-    <button>CocaCola</button>
-    <button>Malteada</button>
+    {<img className="cocaAzul" src="https://i.pinimg.com/originals/71/21/fa/7121fa71eeae93aa2e4aae834d0c2d95.jpg"></img>}
+    <p>Blue CocaCola</p>
+
+    {<img className="cocaAzul" src="https://cdn2.foap.com/images/cf3b6942-a98e-46a8-a7fd-2830c7d78251/w640.jpg?1527461987"></img>}
+    <p>Blue Fanta</p>
+
     </div>
 
+    <input placeholder="Total"></input>
+
        <div>
-           <button>Send</button>
-           <input placeholder="Total"></input>
+           <button className="Send">Send</button>
+           
            </div> 
+           
 <div className="card"></div>
+        </div>
         </div>
     )}
 }
