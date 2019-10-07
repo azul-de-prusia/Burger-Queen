@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
 
-class WaitForFood extends Component {
+class SubmitOrder extends Component {
     constructor() {
         super();
     }
 render() {
     return(
     <div>
-        <p>Your order has been send, it will be ready about 30 minutes</p>
-       <button>cancel</button>
-        <p>After 6 minutes you cannot cancel</p>
+             < a href="/Preparing">
+     <button className="Preparing">Open Menu</button>
+     </a>
     </div>
     )
     }
 }
 
-export default WaitForFood;
+export default SubmitOrder;
