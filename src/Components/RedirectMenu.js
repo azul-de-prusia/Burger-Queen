@@ -7,7 +7,7 @@ class RedirectMenu extends Component {
 render() {
     return(
     <div>
-             < a href="/Menu">
+    <a href="/Menu">
      <button className="buttonmenu">Open Menu</button>
      </a>
     </div>
