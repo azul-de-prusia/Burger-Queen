@@ -7,6 +7,7 @@ import OrderReady from './Components/OrderReady';
 import SendOrder from './Components/Sendorder';
 import WaitForFood from './Components/WaitForFood';
 import Home from './Components/Home';
+import App2 from './Components/App2';
 
 
 
@@ -22,6 +23,7 @@ const Routes = () => (
       <Route path="/SendOrder" component ={SendOrder}/>
       <Route path="/WaitForFood" component ={WaitForFood}/>
       <Route path="/Home" component ={Home}/>
+      <Route path="/App2" component ={App2}/>
     </Switch>
     </BrowserRouter>
   )
