@@ -10,7 +10,7 @@ class Item extends Component{
 			<li>
 				<div className="icon">
 					
-                    <img src={require(`../images/${this.props.data.image}`)}  alt="pizzza" width="20%" height="10%"/>
+                    <img className="cocaAzul" src={require(`../images/${this.props.data.image}`)}  alt="pizzza" width="20%" height="10%"/>
 				</div>
 				<div className="name">
 					<span className="item-name">{this.props.data.name}</span>
@@ -19,7 +19,7 @@ class Item extends Component{
 				<div className="price">
 					<h3>${this.props.data.price}</h3>
 				</div>
-				<button className="remove" onClick={this._remove.bind(this)}>
+				<button className="Send" onClick={this._remove.bind(this)}>
 					<i className="material-icons">close</i>
 				</button>
 			</li>

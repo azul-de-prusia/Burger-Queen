@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Item from './Item';
 import Button from './Button';
 import _ from 'lodash';
+import RedirectFromMenuToSendOrder from './RedirectFromMenuToSendOrder';
 
 
 class App2 extends Component {
@@ -45,8 +46,7 @@ class App2 extends Component {
       {
         image : "papas.png",
         name  : "Papas a la francesa",
-        portion : "140g",
-        price   : Math.floor(Math.random() * 20) 
+        portion : "140g", 
       }
     ]
     this.setState({ data : newData });
@@ -74,6 +74,7 @@ class App2 extends Component {
             name="Añadir producto"
           />
           <h4>$ {this._getTotal()}</h4>
+          <RedirectFromMenuToSendOrder />
         </div>
       </div>
     );
