@@ -9,9 +9,11 @@ class Home extends Component {
 render() {
     return(
     <div className= "home">
+    {<img className="space" src="https://i.gifer.com/58RA.gif"></img>}
         <RedirectMenu />
         </div>
     )}
 }
+
 
 export default Home;
