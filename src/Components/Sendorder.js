@@ -6,10 +6,11 @@ class SendOrder extends Component {
     }
 render() {
     return(
-    <div>
+    <div className="thirdcontainer">
         <p>Please confirm your order</p>
-        <button>Back to menu</button>
-        <button>Submit</button>
+        {<img src="https://i.ibb.co/JjBj9ZD/giphy.gif"></img>}
+        <button className="buttonback">Back to menu</button>
+        <button className="buttonsubmit">Submit</button>
         </div>
     )
     }

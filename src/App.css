@@ -62,14 +62,14 @@ body{
   }
   
   .buttonmenu{
-  background: #1c6375c4;;
-  border-radius: 8px;
-  padding: 5px;
+  background-color: black;
+  padding: 0px;
   cursor: pointer;
-  font-size: 20px;
-  margin: 10px;
-  width: 15%;
+  font-size: 30px;
+  width: 80%;
+  color: aliceblue;
   font-family: 'Press Start 2P', cursive;
+  border: black;
   text-align: top;
   }
 
@@ -104,13 +104,38 @@ body{
   }
 
 .cancel{
-    background: #00c4f5c4;;
-    border-radius: 8px;
     padding: 5px;
     cursor: pointer;
     font-size: 20px;
-    margin: 10px;
-    width: 25%;
+    margin: 50%;
+    width: 50%;
     font-family: 'Press Start 2P', cursive;
     text-align: top;
+}
+.buttonback{
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 17%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: top;
+  background-color: rgb(150, 11, 243);
+  border-radius: 179px 179px 179px 179px;
+  border-radius: 200px 200px 200px 200px;
+  -moz-border-radius: 200px 200px 200px 200px;
+  -webkit-border-radius: 200px 200px 200px 200px;
+  border: 0px solid #000000;
+}
+.buttonsubmit{
+  padding: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 7%;
+  width: 17%;
+  font-family: 'Press Start 2P', cursive;
+  text-align: top;
+  background-color: rgb(11, 26, 243);
+}
+.thirdcontainer{
+  text-align: center;
 }
