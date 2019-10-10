@@ -8,7 +8,7 @@ render() {
     return(
     <div>
     <a href="/Sendorder">
-    <button className="Send">ORDER NOW</button>
+    <button className="buttonStyle">ORDER NOW</button>
      </a>
     </div>
     )
