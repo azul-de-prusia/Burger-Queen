@@ -47,6 +47,7 @@ class App2 extends Component {
         image : "papas.png",
         name  : "Papas a la francesa",
         portion : "140g", 
+        price : "250"
       }
     ]
     this.setState({ data : newData });

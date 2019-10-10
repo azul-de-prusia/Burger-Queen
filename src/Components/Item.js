@@ -7,8 +7,8 @@ class Item extends Component{
 	}
 	render(){
 		return (
-			<li>
-				<div className="icon">
+			<div>
+				<div className="Food">
 					
                     <img className="cocaAzul" src={require(`../images/${this.props.data.image}`)}  alt="pizzza" width="20%" height="10%"/>
 				</div>
@@ -22,7 +22,7 @@ class Item extends Component{
 				<button className="Send" onClick={this._remove.bind(this)}>
 					<i className="material-icons">close</i>
 				</button>
-			</li>
+				</div>
 		)
 	}
 }
