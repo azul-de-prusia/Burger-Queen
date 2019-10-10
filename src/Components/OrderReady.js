@@ -12,7 +12,7 @@ render() {
         <p>In a few moments it</p>
         <p>will arrive at your table</p>
 
-        <button className="Send">Are you ready to pay?</button>
+        <button className="buttonStyle">Are you ready to pay?</button>
     </div>
     )
     }

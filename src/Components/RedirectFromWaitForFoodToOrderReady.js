@@ -8,7 +8,7 @@ render() {
     return(
     <div>
     <a href="/OrderReady">
-     <button>jsjjsxmm
+     <button>
      </button>
      </a>
     </div>

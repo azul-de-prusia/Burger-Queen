@@ -9,7 +9,7 @@ class Button extends Component{
 
 	render(){
 		return (
-			<button className="Send" onClick={this._add.bind(this)}>
+			<button className="buttonStyle" onClick={this._add.bind(this)}>
 				{this.props.name}
 			</button>
 		)

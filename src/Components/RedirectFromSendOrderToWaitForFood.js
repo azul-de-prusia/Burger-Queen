@@ -8,7 +8,7 @@ render() {
     return(
     <div>
     <a href="/WaitForFood">
-     <button>HOLI
+     <button>
      </button>
      </a>
     </div>
