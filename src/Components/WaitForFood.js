@@ -11,7 +11,7 @@ render() {
         <p>Your order has been send,</p> 
         <p>it will be ready about</p>
     <a href="/AlertYourFoodIsReady">
-     <button className="buttonFood"></button>
+     <button className="buttonTime"></button>
      </a>
     </div>
     )

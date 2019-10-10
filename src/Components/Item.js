@@ -19,7 +19,7 @@ class Item extends Component{
 				<div className="price">
 					<h3>${this.props.data.price}</h3>
 				</div>
-				<button className="Send" onClick={this._remove.bind(this)}>
+				<button className="buttonStyle" onClick={this._remove.bind(this)}>
 					<i className="material-icons">close</i>
 				</button>
 				</div>

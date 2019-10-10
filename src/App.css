@@ -14,8 +14,8 @@ body{
 .interrestellar{
   grid-column-start: 4;
   justify-self: center;
-  width: 60%;
-  height: 55%;
+  width: 100%;
+  height: 100%;
   margin-top: 5%;
 }
 .Container2 {
@@ -56,24 +56,30 @@ body{
     align-self: auto;
   }
   .space{
-    width: 500px;
-    height: 900px;
+    width: 800px;
+    height: 800px;
   }
   .spaceship{
     width: 600px;
     height: 600px;
   }
   .buttonmenu{
-  background-color:rgb(12, 132, 238);
+  background-color:rgba(2, 253, 220, 0.534);
+  color: rgb(0, 0, 0);
   padding: 9px; 
   cursor: pointer;
-  font-size: 30px;
+  font-size: 40px;
   border: black;
+<<<<<<< HEAD
   width: 20%;
   height: 40%;
+=======
+  width: 50%;
+  height: 50%;
+>>>>>>> be043257dc9dbc207a39695ce44be00fb141e4b5
   font-family: 'Press Start 2P', cursive;
   border-radius: 39px;
-  text-align: top;
+  text-align: center;
   }
   .Send{
     background: #00c4f5c4;;
@@ -130,13 +136,14 @@ body{
   padding: 18px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 1%;
-  width: 17%;
+  margin-top: 10%;
+  width: 60%;
+  height: 50%;
   border: black;
   font-family: 'Press Start 2P', cursive;
   text-align: top;
-  background-color: rgba(18, 4, 70, 0.767);
-  border-radius: 30px;
+  background-color: rgba(17, 167, 172, 0.404);
+  border-radius: 10px;
 }
 .thirdcontainer{
   text-align: center;
@@ -153,7 +160,7 @@ body{
 .container5{
   font-size: 35px;
 }
-.buttonFood{
+.buttonTime{
     cursor: pointer;
     background-color:transparent;
     background-image: url("https://i.ibb.co/SRVLJGF/ezgif-com-crop-6.gif");
@@ -164,4 +171,18 @@ body{
     margin-left: 50px;
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
+}
+
+.buttonStyle{
+  padding: 18px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 5%;
+  width: 40%;
+  height: 50%;
+  border: rgb(255, 255, 255);
+  font-family: 'Press Start 2P', cursive;
+  text-align: top;
+  background-color: rgba(98, 0, 255, 0.973);
+  border-radius: 10px; 
 }
