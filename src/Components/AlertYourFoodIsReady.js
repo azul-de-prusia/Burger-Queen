@@ -6,11 +6,16 @@ class AlertYourFoodIsReady extends Component {
     }
 render() {
     return(
-    <div className= "Container7">
-    <p>YOUR ORDER IS READY!</p>
-    {<img className="space" src="https://media2.giphy.com/media/3o84TYShVxcDbZEx2g/giphy.gif"></img>}
-        <h2>In a few moments it will arrive to your table...</h2>
-        </div>
+    <div className= "Container5">
+        <h1>Kitchen staff</h1>
+        <p>id table</p>
+        <p>here goes the image of the order items</p>
+            <div>
+            <a href="/OrderReady">
+            <button className="noticebutton">The order is ready!</button>
+            </a>
+            </div>
+    </div>
     )}
 }
 

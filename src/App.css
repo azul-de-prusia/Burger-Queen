@@ -127,7 +127,7 @@ body{
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 0px solid #000000;
 }
-.buttonsubmit{
+.buttonsubmit, .noticebutton{
   padding: 18px;
   cursor: pointer;
   font-size: 20px;
@@ -151,7 +151,9 @@ body{
   height: 50%;
   padding: 15%;
 }
-
+.container5{
+  font-size: 35px;
+}
 .buttonFood{
     cursor: pointer;
     background-color:transparent;
