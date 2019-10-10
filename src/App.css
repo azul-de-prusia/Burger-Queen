@@ -26,6 +26,7 @@ body{
   font-size: 12px;
   background-color: rgba(4, 151, 151, 0.568);
   border-radius: 10px;
+  
 }
 
 .Container2:hover {
@@ -138,4 +139,17 @@ body{
 }
 .thirdcontainer{
   text-align: center;
+}
+
+.buttonFood{
+    cursor: pointer;
+    background-color:transparent;
+    background-image: url("https://i.ibb.co/SRVLJGF/ezgif-com-crop-6.gif");
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    border: none;
+    margin-left: 50px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
 }
