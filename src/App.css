@@ -120,7 +120,7 @@ body{
   width: 17%;
   font-family: 'Press Start 2P', cursive;
   text-align: top;
-  background-color: rgb(150, 11, 243);
+  background-color: rgba(0, 15, 83, 0.171);
   border-radius: 179px 179px 179px 179px;
   border-radius: 200px 200px 200px 200px;
   -moz-border-radius: 200px 200px 200px 200px;
@@ -136,7 +136,7 @@ body{
   border: black;
   font-family: 'Press Start 2P', cursive;
   text-align: top;
-  background-color: rgba(243, 11, 193, 0.66);
+  background-color: rgba(18, 4, 70, 0.767);
   border-radius: 30px;
 }
 .thirdcontainer{
