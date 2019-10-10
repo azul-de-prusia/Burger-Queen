@@ -7,6 +7,10 @@ class KitchenConfirm extends Component {
 render() {
     return(
     <div>
+<h1>KITCHEN STAFF</h1>
+<a href="/WaitForFood">
+     <button className="buttonsubmit"></button>
+     </a>
     </div>
     )    
 }
