@@ -7,8 +7,8 @@ class RedirectMenu extends Component {
 render() {
     return(
     <div>
-    <a href="/Menu">
-     <button className="buttonmenu">Click to start</button>
+    <a href="/App2">
+     <button className="buttonmenu">Slide to start</button>
      </a>
     </div>
     )
