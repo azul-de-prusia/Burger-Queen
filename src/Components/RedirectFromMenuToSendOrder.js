@@ -7,7 +7,7 @@ class RedirectFromMenuToSendOrder extends Component {
 render() {
     return(
     <div>
-    <a href="/SendOrder">
+    <a href="/Sendorder">
     <button className="Send">ORDER NOW</button>
      </a>
     </div>

@@ -14,7 +14,7 @@ render() {
      <button className="buttonsubmit">Back to menu</button>
      </a>
     </div>
-    <a href="/WaitForFood">
+    <a href="/Kitchenconfirm">
      <button className="buttonsubmit">SUBMIT</button>
      </a>
     </div>
