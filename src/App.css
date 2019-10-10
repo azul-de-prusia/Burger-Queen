@@ -127,7 +127,7 @@ body{
   -webkit-border-radius: 200px 200px 200px 200px;
   border: 0px solid #000000;
 }
-.buttonsubmit{
+.buttonsubmit, .noticebutton{
   padding: 18px;
   cursor: pointer;
   font-size: 20px;
@@ -151,6 +151,10 @@ body{
   height: 50%;
   padding: 15%;
 }
+<<<<<<< HEAD
+.container5{
+  font-size: 35px;
+=======
 
 .buttonFood{
     cursor: pointer;
@@ -163,4 +167,5 @@ body{
     margin-left: 50px;
     font-family: 'Press Start 2P', cursive;
     font-size: 10px;
+>>>>>>> 89beb5a2e3b2620dba81629cf181195b9cdf4bf4
 }
