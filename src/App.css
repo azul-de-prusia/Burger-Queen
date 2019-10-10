@@ -32,20 +32,19 @@ body{
   background-color: rgba(47, 255, 227, 0.301);
   }
   .Food{
-    border:1px, rgba(3, 71, 102, 0.418);
-    background: #00aeff3a;;
+    background: #6634d398;
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
     font-size: 20px;
-    /* float: right; */
-    margin: 40px;
-    width: 40%;
+    margin: 4px;
+    height: 40%;
+    width: 50%;
     text-align: center;
   }
   .Drinks{
     border:1px, rgba(3, 71, 102, 0.418);
-    background: #00aeff3a;;
+    background: #ff0037bd;;
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
@@ -72,7 +71,6 @@ body{
   border: black;
   width: 20%;
   height: 40%;
-  color: rgb(65, 52, 120);
   font-family: 'Press Start 2P', cursive;
   border-radius: 39px;
   text-align: top;
@@ -89,7 +87,8 @@ body{
     text-align: top;
   }
   .cocaAzul{
-    width: 30%;
+    width: 50%;
+    height: 40%;
     border-radius: 30px; 
     font-family: 'Press Start 2P', cursive;
   }

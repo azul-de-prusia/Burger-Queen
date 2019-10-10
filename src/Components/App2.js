@@ -12,16 +12,16 @@ class App2 extends Component {
     this.state = {
       data : [
         {
-          image : "hambuerger.png",
-          name  : "Hamburguesa",
-          portion : "500g",
-          price   : 40
+          image : "hambuerger.jfif",
+          name  : "Earth Burger",
+          portion : "350g",
+          price   : 80
         },
         {
-            image : "pizzza.jpg",
-            name  : "pizza",
-            portion : "500g",
-            price   : 50
+            image : "coca.jpg",
+            name  : "Blue Coca-Cola ",
+            portion : "250 ml",
+            price   : 30
           }
       ]
     }
@@ -44,10 +44,10 @@ class App2 extends Component {
     let newData = [
       ...data,
       {
-        image : "papas.png",
-        name  : "Papas a la francesa",
-        portion : "140g", 
-        price : "250"
+        image : "pizzza.jpg",
+        name  : "Galactic Pizza",
+        portion : "500g",
+        price   : 130
       }
     ]
     this.setState({ data : newData });
@@ -72,7 +72,7 @@ class App2 extends Component {
         <div className="footer">
           <Button
             onClick={this._add.bind(this)}
-            name="Añadir producto"
+            name="Add item"
           />
           <h4>$ {this._getTotal()}</h4>
           <RedirectFromMenuToSendOrder />
