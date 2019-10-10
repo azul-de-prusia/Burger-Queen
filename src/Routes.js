@@ -22,7 +22,7 @@ const Routes = () => (
       <Route path="/OrderReady" component ={OrderReady}/>
       <Route path="/SendOrder" component ={SendOrder}/>
       <Route path="/WaitForFood" component ={WaitForFood}/>
-      <Route path="/Home" component ={Home}/>
+      <Route exact path="/" component ={Home}/>
       <Route path="/App2" component ={App2}/>
     </Switch>
     </BrowserRouter>

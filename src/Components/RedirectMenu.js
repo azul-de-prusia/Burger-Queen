@@ -8,7 +8,7 @@ render() {
     return(
     <div>
     <a href="/Menu">
-     <button className="buttonmenu">Slide to start</button>
+     <button className="buttonmenu">Click to start</button>
      </a>
     </div>
     )
