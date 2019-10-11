@@ -29,10 +29,10 @@ body{
 }
 .Container2:hover {
   box-shadow: 20px 20px 20px 20px;
-  background-color: rgba(47, 255, 227, 0.301);
+  background-color: rgba(2, 240, 161, 0.384);
   }
   .Food{
-    background: #6634d398;
+    background: #ff04f263;
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
@@ -44,7 +44,7 @@ body{
   }
   .Drinks{
     border:1px, rgba(3, 71, 102, 0.418);
-    background: #ff0037bd;;
+    background: #008cff4b;;
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
@@ -70,13 +70,8 @@ body{
   cursor: pointer;
   font-size: 40px;
   border: black;
-<<<<<<< HEAD
-  width: 20%;
-  height: 40%;
-=======
   width: 50%;
   height: 50%;
->>>>>>> be043257dc9dbc207a39695ce44be00fb141e4b5
   font-family: 'Press Start 2P', cursive;
   border-radius: 39px;
   text-align: center;
@@ -183,6 +178,6 @@ body{
   border: rgb(255, 255, 255);
   font-family: 'Press Start 2P', cursive;
   text-align: top;
-  background-color: rgba(98, 0, 255, 0.973);
+  background-color: rgba(132, 0, 255, 0.801);
   border-radius: 10px; 
 }
