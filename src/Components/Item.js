@@ -10,7 +10,7 @@ class Item extends Component{
 			<div>
 				<div className="Food">
 					
-                    <img className="cocaAzul" src={require(`../images/${this.props.data.image}`)}  alt="pizzza" width="20%" height="10%"/>
+                    <img className="styleFood" src={require(`../images/${this.props.data.image}`)}  alt="pizzza" width="20%" height="10%"/>
 				</div>
 				<div className="name">
 					<span className="item-name">{this.props.data.name}</span>
