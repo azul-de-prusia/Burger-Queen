@@ -32,7 +32,8 @@ body{
   background-color: rgba(2, 240, 161, 0.384);
   }
   .Food{
-    background: #ff04f263;
+
+    background: #8b58f82d;
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
@@ -44,7 +45,7 @@ body{
   }
   .Drinks{
     border:1px, rgba(3, 71, 102, 0.418);
-    background: #008cff4b;;
+    background: rgba(3, 71, 102, 0.418);
     border-radius: 30px;
     padding: 5px;
     cursor: pointer;
@@ -88,8 +89,8 @@ body{
     text-align: top;
   }
   .cocaAzul{
-    width: 50%;
-    height: 40%;
+    width: 40%;
+    height: 30%;
     border-radius: 30px; 
     font-family: 'Press Start 2P', cursive;
   }
@@ -142,7 +143,7 @@ body{
 }
 .thirdcontainer{
   text-align: center;
-  font-size: 30px;
+  font-size: 22px;
 }
 .orderready{
   font-size: 35px;
@@ -162,10 +163,10 @@ body{
     background-repeat: no-repeat;
     width: 300px;
     height: 300px;
+    padding: 0%;
     border: none;
     margin-left: 50px;
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
 }
 
 .buttonStyle{
@@ -180,4 +181,20 @@ body{
   text-align: top;
   background-color: rgba(132, 0, 255, 0.801);
   border-radius: 10px; 
+}
+.blastoff{
+  height: 40%;
+  width: 40%;
+}
+.buttonStyle1{
+  padding: 18px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 40%;
+  height: 50%;
+  border: rgb(255, 255, 255);
+  font-family: 'Press Start 2P', cursive;
+  text-align: top;
+  background-color: rgba(115, 66, 193, 0.973);
+  border-radius: 10px;  
 }

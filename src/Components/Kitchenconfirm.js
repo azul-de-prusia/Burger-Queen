@@ -8,7 +8,7 @@ render() {
     return(
     <div>
 <h1>KITCHEN STAFF</h1>
-<p>ID TABLE #</p>
+<p>ID TABLE #12</p>
 {<img className="cocaAzul" src="https://pbs.twimg.com/media/BVjTuebCMAA01nY.jpg:large"></img>}
 <p>Earth Burger</p>
 
