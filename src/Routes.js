@@ -15,9 +15,9 @@ import App2 from './Components/App2';
 
 const Routes = () => (
   
-  <HashRouter basename='/home'>
+  <HashRouter basename='/'>
     <Switch> 
-      
+
       <Route path="/AlertYourFoodIsReady" component ={AlertYourFoodIsReady}/>
       <Route path="/KitchenConfirm" component ={KitchenConfirm}/>
       <Route path="/Menu" component ={Menu}/>
