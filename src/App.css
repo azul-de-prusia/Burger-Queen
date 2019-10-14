@@ -29,9 +29,10 @@ body{
 }
 .Container2:hover {
   box-shadow: 20px 20px 20px 20px;
-  background-color: rgba(47, 255, 227, 0.301);
+  background-color: rgba(2, 240, 161, 0.384);
   }
   .Food{
+
     background: #8b58f82d;
     border-radius: 30px;
     padding: 5px;
@@ -178,7 +179,7 @@ body{
   border: rgb(255, 255, 255);
   font-family: 'Press Start 2P', cursive;
   text-align: top;
-  background-color: rgba(98, 0, 255, 0.973);
+  background-color: rgba(132, 0, 255, 0.801);
   border-radius: 10px; 
 }
 .blastoff{
